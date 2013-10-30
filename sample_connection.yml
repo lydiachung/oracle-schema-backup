@@ -1,0 +1,6 @@
+ora_url: "jdbc:oracle:thin:@xxx.xxx.xxx.xxx:1521:xxx"
+ora_user: "xxx"
+ora_pass: "xxx"
+ora_dir: "xxx"
+ora_ser: "xxx"
+winrar_path: 'C:\Program Files\WinRAR\rar.exe'
