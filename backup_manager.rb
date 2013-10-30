@@ -69,6 +69,7 @@ class BackupManager
   end
   
   def get_archive_folder_name()
+    @n_folder_number = @n_folder_number + 1
     t_archive_date = Time.now 
     c_archive_date = t_archive_date.strftime("%Y%m%d")
     c_archive_folder = File.join(@c_backup_path,"archive-#{c_archive_date}-#{@n_folder_number}")
